@@ -1,0 +1,56 @@
+
+@import "tailwindcss";
+
+/* SN FIRST */
+.sn-text {
+  opacity: 0;
+  transform: scale(0.7);
+  animation: showSN 0.8s ease forwards;
+}
+
+/* HEXAGON AFTER SN */
+.hexagon-path {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation: drawHexagon 1.4s ease forwards;
+  animation-delay: 0.7s;
+}
+
+/* ROLE TEXT */
+.fade-role {
+  opacity: 0;
+  animation: fadeRole 1s ease forwards;
+  animation-delay: 1.8s;
+}
+
+/* ANIMATIONS */
+
+@keyframes drawHexagon {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes showSN {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeRole {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
