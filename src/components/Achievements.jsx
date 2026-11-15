@@ -88,7 +88,45 @@ function Achievements() {
 
                     </div>
 
+
+
                     {/* ITEM 3 */}
+                    {/* ITEM 3 */}
+                    {/* ITEM 3 */}
+                    <div className="relative grid md:grid-cols-2 gap-10 mb-20 items-center">
+
+                        {/* LEFT EMPTY */}
+                        <div></div>
+
+                        {/* DOT */}
+                        <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 w-5 h-5 rounded-full bg-blue-500 shadow-[0_0_20px_#3B82F6]"></div>
+
+                        {/* RIGHT */}
+                        <div>
+                            <p className="text-blue-400 font-medium mb-2">
+                                Nov 2022
+                            </p>
+
+                            <h3 className="text-2xl font-bold mb-3">
+                                TFWS Scholar
+                            </h3>
+
+                            <p className="text-gray-300">
+                                Rizvi College of Engineering, Mumbai
+                            </p>
+
+                            <p className="text-blue-400 mt-2 font-semibold">
+                                84th Percentile in MHT-CET
+                            </p>
+
+                            <p className="text-gray-400 text-sm mt-2">
+                                Secured merit-based admission under the Tuition Fee Waiver Scheme (TFWS), awarded by DTE Maharashtra.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    {/* ITEM 4 */}
                     <div className="relative grid md:grid-cols-2 gap-10 mb-20 items-center">
 
                         {/* LEFT */}
@@ -107,11 +145,11 @@ function Achievements() {
                             </p>
 
                             <p className="text-blue-400 mt-2 font-semibold">
-                                Electronics & Computer Science
+                                8.01 CGPA (71.93%)
                             </p>
 
                             <p className="text-gray-400 mt-2">
-                                TFWS Student
+                                Electronics & Computer Science
                             </p>
 
                         </div>
@@ -123,7 +161,7 @@ function Achievements() {
 
                     </div>
 
-                    {/* ITEM 4 */}
+                    {/* ITEM 5 */}
                     <div className="relative grid md:grid-cols-2 gap-10 mb-20 items-center">
 
                         <div></div>
@@ -143,11 +181,11 @@ function Achievements() {
                             </h3>
 
                             <p className="text-gray-300 leading-relaxed">
-                                Successfully completed a Full Stack Web Development
+                                Successfully completed a Full Stack Web Development - MERN
                                 course covering frontend and backend technologies.
                             </p>
 
-                           
+
 
                             <img
                                 src="/course.png"
@@ -159,7 +197,7 @@ function Achievements() {
 
                     </div>
 
-                    {/* ITEM 5 */}
+                    {/* ITEM 6 */}
                     <div className="relative grid md:grid-cols-2 gap-10 mb-20 items-center">
 
                         {/* LEFT */}
@@ -193,7 +231,7 @@ function Achievements() {
 
                     </div>
 
-                    {/* ITEM 6 */}
+                    {/* ITEM 7 */}
                     <div className="relative grid md:grid-cols-2 gap-10 items-center">
 
                         <div></div>

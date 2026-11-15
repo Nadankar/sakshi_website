@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Intro() {
     return (
@@ -27,12 +28,13 @@ function Intro() {
                 {/* BUTTONS */}
                 <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start mt-5">
 
-                    <a
-                        href="https://github.com/Nadankar"
-                        className="px-6 py-3 rounded-md bg-blue-500 hover:bg-blue-600 transition text-white font-medium"
+                    <Link
+                        to="/projects"
+                        className="px-6 py-3 rounded-md bg-blue-500 hover:bg-blue-600 text-white"
                     >
                         View Projects
-                    </a>
+                    </Link>
+
 
                 </div>
 
